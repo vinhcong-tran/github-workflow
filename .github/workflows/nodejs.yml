@@ -3,7 +3,7 @@ name: ci.pr # Name of action
 on: # Event to trigger the the action
   pull_request:
     branches:
-      - main # Will trigger when having a push action to a MR to main branch
+      - master # Will trigger when having a push action to a MR to main branch
     paths-ignore: # Will not trigger if the push only include one of below things
       - '**.md'
       - '.vscode/**'
