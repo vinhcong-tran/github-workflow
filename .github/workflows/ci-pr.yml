@@ -7,7 +7,6 @@ on: # Event to trigger the the action
     paths-ignore: # Will not trigger if the push only include one of below things
       - '**.md'
       - '.vscode/**'
-  workflow_dispatch:
 
 jobs: # jobs need to be run
   build:
